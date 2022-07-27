@@ -5,6 +5,7 @@ footer {
 h1,
 h2 {
     font-family: 'Roboto', sans-serif;
+    ;
 }
 
 .hero {
@@ -48,6 +49,14 @@ opacity: 0.7;
     filter: none;
     margin-right: 1.4rem;
     opacity: 1;
+}
+.testimonios {
+    background-color: #c15252;
+    padding-bottom: 4rem !important;
+}
+.testimonio{
+    text-align: center;
+    padding: 50px 20px;
 }
 
 
