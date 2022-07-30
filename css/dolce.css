@@ -1,11 +1,24 @@
+
+/* font-family: 'Roboto', sans-serif; */
+
+
 footer {
-    background-color: #aaa;
+    background-color:white;
+    margin: auto;
+}
+p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
 }
 
 h1,
 h2 {
     font-family: 'Roboto', sans-serif;
-    ;
+    font-weight: 700;
+    font-size: 30px;
+   
 }
 
 .hero {
@@ -51,7 +64,7 @@ opacity: 0.7;
     opacity: 1;
 }
 .testimonios {
-    background-color: #c15252;
+    background-color: #575252;
     padding-bottom: 4rem !important;
 }
 .testimonio{
