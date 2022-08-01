@@ -3,7 +3,7 @@
 
 
 footer {
-    background-color:white;
+    background-color:rgb(167, 162, 162);
     margin: auto;
 }
 p{
@@ -64,7 +64,7 @@ opacity: 0.7;
     opacity: 1;
 }
 .testimonios {
-    background-color: #575252;
+    background-color: rgb(238, 141, 141);
     padding-bottom: 4rem !important;
 }
 .testimonio{
@@ -72,5 +72,7 @@ opacity: 0.7;
     padding: 50px 20px;
 }
 
-
+.staff {
+    background: rgb(238, 141, 141);
+}
 
