@@ -7,7 +7,7 @@ footer {
     margin: auto;
 }
 p{
-    color: black;
+    color: rgb(90, 85, 85);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 27px;
@@ -79,4 +79,9 @@ opacity: 0.7;
 .staff {
     background: rgb(238, 141, 141);
 }
+.button {
+    background-color: pink;
+    color: black;
+}
+
 

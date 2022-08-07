@@ -19,13 +19,14 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(238, 141, 141);">
+
         <a class="navbar-brand" href="#">dolce momento</a>
 
 
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,7 +52,7 @@
     <div class="container-fluid">
         <div id="home" class="row align-items-center hero">
             <div class="col-lg-3 offset-lg-2">
-                <p >Pasteleria Profesional</p>
+                <p>Pasteleria Profesional</p>
                 <h1>Dolce Momento</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore reiciendis voluptates ipsum,
                     laudantium, inventore, itaque alias eum amet minus ea recusandae exercitationem quos sapiente
@@ -78,7 +79,7 @@
         </div>
         <div class="col-md-3">
             <!--testimonios-->
-            <div class="rounded py-3 testimonios">
+             <div class="rounded py-3 testimonios">
                 <h2 class="text-center">testimonios</h2>
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -118,15 +119,15 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
+            </div> 
             <!--cierra testimonios-->
-
+            
         </div>
         <!--termina novedades-->
         <!-- inicio hisroia -->
 
         <div id="historia" class="row align-items-center py-4">
-            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+         <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
                 <img src="img/historia1.jpg" alt="historia1" class="img-fluid">
             </div>
             <div class="col-lg-2 col-md-3 d-none d-sm-block">
@@ -136,16 +137,17 @@
                 <img src="img/historia3.jpg" alt="historia3" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
-                <h2>historia</h2>
+                <h2>Historia</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consectetur necessitatibus repellat
                     nulla ea veniam repellendus, ipsa libero dignissimos sed quae itaque accusantium omnis enim id error
                     ratione distinctio molestias.</p>
 
-            </div>
+         </div>
 
-        </div>
+        </div>  
+       
         <!-- fin historia -->
-
+        
 
         <!-- inicio nosotros -->
         <div id="nosotros" class="row align-items-stretch my-3 staff py-4">
@@ -153,7 +155,7 @@
                 <h2>Nosotros</h2>
                 <div class="card-deck">
                     <div class="card">
-                        <img src="img/azul1.jpg"  width="300" height="500" class="card-img-top" alt="dueña">
+                        <img src="img/azul1.jpg" width="300" height="500" class="card-img-top" alt="dueña">
                         <div class="card-body">
                             <h5 class="card-title">azul charreun</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -225,7 +227,7 @@
 
                 </div>
 
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary" style="background-color: pink; color:black;border-color: pink; ">Enviar</button>
             </form>
         </div>
 
@@ -256,9 +258,11 @@
         crossorigin="anonymous"></script>
     <script
         src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
-        <script>
-            var scroll = new SmoothScroll('a[href*="#"]');
-        </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
+
+
 
 </html>
