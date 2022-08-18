@@ -1,5 +1,6 @@
 
 /* font-family: 'Roboto', sans-serif; */
+/* #ffc7c7*/
 
 
 footer {
@@ -68,7 +69,7 @@ opacity: 0.7;
     opacity: 1;
 }
 .testimonios {
-    background-color: rgb(238, 141, 141);
+    background-color:#ffc7c7;
     padding-bottom: 4rem !important;
 }
 .testimonio{
@@ -77,10 +78,10 @@ opacity: 0.7;
 }
 
 .staff {
-    background: rgb(238, 141, 141);
+    background: #ffc7c7;
 }
 .button {
-    background-color: pink;
+    background-color: #ffc7c7;
     color: black;
 }
 
